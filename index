@@ -167,47 +167,26 @@
                 </div>
             </section>
 
-            <section id="document360-advantage">
-                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">Bridging the Gap: The Document360 Advantage</h2>
-                    <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">Document360 offers a compelling solution to address some of Xwiki's inherent limitations, particularly for organizations prioritizing ease of use and out-of-the-box AI capabilities.</p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="space-y-4">
-                            <h3 class="text-xl font-bold text-[#004FFF]">Simplified Usability & Setup</h3>
-                            <p class="text-gray-700">Unlike Xwiki's high learning curve and extensive setup, Document360 is recognized for its **user-friendliness** and intuitive interface. It boasts an easy article creation process, allowing even non-technical users to quickly contribute content, significantly reducing training time and accelerating adoption.</p>
-                            <h3 class="text-xl font-bold text-[#FFB627]">Native AI Capabilities</h3>
-                            <p class="text-gray-700">Document360 is built as an **AI-powered knowledge management platform**. It offers features like AI-powered search, AI writer suites for content generation (outline creation, tone adjustment), AI categorization/tagging, and AI chatbots. These native AI tools directly fill Xwiki's gap in out-of-the-box AI features, enhancing knowledge discovery and content creation efficiently.</p>
-                        </div>
-                        <div class="space-y-4">
-                            <h3 class="text-xl font-bold text-[#FF5F5F]">Robust API Integration</h3>
-                            <p class="text-gray-700">Document360 provides a comprehensive **REST API**, enabling seamless integration with existing business applications like Zendesk, Intercom, Slack, and Microsoft Teams. This ensures a unified workflow and centralizes knowledge, addressing any potential integration complexities or missing links in Xwiki's ecosystem without extensive custom coding.</p>
-                            <h3 class="text-xl font-bold text-[#004FFF]">Flexible Markdown Support</h3>
-                            <p class="text-gray-700">With support for **Markdown**, WYSIWYG, and Block editors, Document360 offers flexibility for content creators. Markdown support allows technical users to rapidly compose articles, while the intuitive interface ensures accessibility for all, contrasting with Xwiki's deeper reliance on programming knowledge for advanced content structuring.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section id="comparison">
                 <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">Xwiki vs. The Competition</h2>
-                    <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">How does Xwiki stack up against leading alternatives? The choice depends heavily on organizational priorities, particularly the balance between usability and custom power.</p>
+                    <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">Xwiki vs. Document360</h2>
+                    <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">This direct comparison highlights the distinct strengths of Xwiki and Document360 across key knowledge management attributes.</p>
                     <div class="chart-container h-96 md:h-[500px] max-w-2xl">
                         <canvas id="comparisonChart"></canvas>
                     </div>
                     <div class="mt-8 text-center text-gray-600 max-w-3xl mx-auto">
-                        <p><strong class="text-[#004FFF]">Xwiki</strong> excels in pure customization and structured data but requires technical skill. <strong class="text-[#FF5F5F]">Confluence</strong> offers a strong, structured enterprise solution with deep Atlassian integration. <strong class="text-[#FFB627]">Notion</strong> leads in ease of use and integrated AI, offering an all-in-one workspace feel. <strong class="text-[#8A2BE2]">Document360</strong> prioritizes ease of use, out-of-the-box AI features, and seamless API integrations, making it ideal for self-service knowledge bases.</p>
+                        <p><strong class="text-[#004FFF]">Xwiki</strong> offers unparalleled customization and structured data capabilities, ideal for organizations with strong technical resources and unique workflow needs. In contrast, <strong class="text-[#8A2BE2]">Document360</strong> prioritizes a highly intuitive user experience, robust out-of-the-box features including native AI, and seamless API integrations, making it an excellent choice for self-service knowledge bases and broader team adoption without requiring deep technical expertise.</p>
                     </div>
                 </div>
             </section>
             
             <section id="recommendation">
                  <div class="bg-[#004FFF] text-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">The Final Verdict: Should You Choose Xwiki?</h2>
-                    <p class="text-center text-blue-200 mb-8 max-w-2xl mx-auto">This decision framework, based on key organizational attributes, helps determine if Xwiki is the right fit for you. Answer the questions to find your recommendation.</p>
+                    <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">The Final Verdict: Choosing Your KM Platform</h2>
+                    <p class="text-center text-blue-200 mb-8 max-w-2xl mx-auto">This decision framework, based on key organizational attributes, helps determine the ideal knowledge management solution for your needs.</p>
                     <div class="flex flex-col items-center space-y-4">
                         <div class="flowchart-node">
-                            <h3 class="font-bold text-lg text-gray-800">Do you have in-house developers or a budget for technical implementation?</h3>
+                            <h3 class="font-bold text-lg text-gray-800">Do you have in-house developers or a budget for extensive technical implementation?</h3>
                         </div>
                         <div class="flowchart-arrow">↓</div>
                         <div class="w-full flex flex-col md:flex-row justify-around items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">
@@ -221,7 +200,7 @@
                                 <div class="flowchart-arrow">↓</div>
                                 <div class="bg-green-500 p-6 rounded-lg text-center shadow-xl">
                                     <h4 class="text-2xl font-black">GO WITH XWIKI</h4>
-                                    <p class="mt-1 font-semibold">Its power and flexibility are a perfect match for your needs.</p>
+                                    <p class="mt-1 font-semibold">Its power and flexibility are a perfect match for your specialized needs.</p>
                                 </div>
                             </div>
                             
@@ -229,12 +208,12 @@
                                 <div class="flowchart-decision">NO</div>
                                 <div class="flowchart-arrow">↓</div>
                                 <div class="flowchart-node">
-                                     <h3 class="font-bold text-lg text-gray-800">Are ease of use and out-of-the-box features more important?</h3>
+                                     <h3 class="font-bold text-lg text-gray-800">Are ease of use, native AI, and quick setup more important?</h3>
                                 </div>
                                 <div class="flowchart-arrow">↓</div>
                                 <div class="bg-yellow-500 p-6 rounded-lg text-center shadow-xl">
-                                    <h4 class="text-2xl font-black">CONSIDER ALTERNATIVES</h4>
-                                    <p class="mt-1 font-semibold">Look at platforms like Notion, Confluence, or <strong class="text-purple-900">Document360</strong> for a simpler user experience.</p>
+                                    <h4 class="text-2xl font-black">CONSIDER DOCUMENT360</h4>
+                                    <p class="mt-1 font-semibold">It offers a user-friendly experience with powerful out-of-the-box features and AI.</p>
                                 </div>
                             </div>
 
@@ -260,7 +239,7 @@
                 yellow: '#FFB627',
                 lightYellow: '#FFD27C',
                 red: '#FF5F5F',
-                purple: '#8A2BE2' // Added purple for Document360
+                purple: '#8A2BE2'
             };
 
             const globalTooltipCallback = {
@@ -394,7 +373,7 @@
                         labels: wrappedLabels,
                         datasets: [{
                             label: 'Xwiki',
-                            data: [3, 9, 4, 2, 8],
+                            data: [3, 9, 4, 2, 8], /* Ease of Use, Customization, Out-of-Box, Native AI, Enterprise Security */
                             fill: true,
                             backgroundColor: 'rgba(0, 79, 255, 0.2)',
                             borderColor: palette.blue,
@@ -403,28 +382,8 @@
                             pointHoverBackgroundColor: '#fff',
                             pointHoverBorderColor: palette.blue
                         }, {
-                            label: 'Confluence',
-                            data: [6, 7, 7, 5, 9],
-                            fill: true,
-                            backgroundColor: 'rgba(255, 95, 95, 0.2)',
-                            borderColor: palette.red,
-                            pointBackgroundColor: palette.red,
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: palette.red
-                        }, {
-                             label: 'Notion',
-                            data: [9, 6, 8, 8, 6],
-                            fill: true,
-                            backgroundColor: 'rgba(255, 182, 39, 0.2)',
-                            borderColor: palette.yellow,
-                            pointBackgroundColor: palette.yellow,
-                            pointBorderColor: '#fff',
-                            pointHoverBackgroundColor: '#fff',
-                            pointHoverBorderColor: palette.yellow
-                        }, {
                              label: 'Document360',
-                            data: [8, 5, 8, 8, 7], /* Ease of Use, Customization, Out-of-Box, Native AI, Enterprise Security */
+                            data: [8, 6, 8, 8, 7], /* Ease of Use, Customization, Out-of-Box, Native AI, Enterprise Security */
                             fill: true,
                             backgroundColor: 'rgba(138, 43, 226, 0.2)', /* Purple */
                             borderColor: palette.purple,
